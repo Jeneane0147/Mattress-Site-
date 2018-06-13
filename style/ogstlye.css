@@ -11,7 +11,7 @@ body {
 }
 
 section {
-  padding: 10%;
+  padding: 5%;
 }
 
 /* Typography section where all of our font stuff is. */
@@ -39,7 +39,7 @@ h2 {
 }
 
 span {
-  color: #F7CA18;
+  color: gold;
 }
 
 /* Span changes one color or style in a line or paragraph */
@@ -56,17 +56,13 @@ span {
   text-align: right;
 }
 
-.bg-cover{
-  background-position: center;
-  background-size: cover;
-}
-
 /* "helper classes" used to do little things over and over again.  mostly for padding, margin and text align */
 
 /* Styles for the header */
 
 header {
   background-image: url("../images/leaves.jpg");
+  background-size: cover;
   min-height:100vh;
   color: white;
   text-align: center;
@@ -75,12 +71,14 @@ header {
 /* four square section */
 .dog-bg {
   background-image: url("../images/dog.jpg");
+  background-size: cover;
   background-position: 50% 32.8%;
   /* use inspect to play around with the percents  */
 }
 
 .bedside-bg {
   background-image: url("../images/bed.jpg");
+  background-size: cover;
   background-position: 25% 0%;
 }
 
@@ -88,15 +86,20 @@ header {
 
 .pencils-on-yellow {
   background-image: url("../images/pencil.jpg");
+  background-size: cover;
   background-position: 25% 25%;
+  padding: 10%;
   text-align: center;
-  padding: 17% 0%; 
+
 }
 
 .pencils-on-yellow span{
   color: white;
 }
 
+.quotes {
+  padding: 10%;
+}
 
 .quotation-marks {
   color: grey;
@@ -117,24 +120,4 @@ footer {
   background-color: #192b37;
 color: white;
 padding: 5%;
-}
-
-footer form * {
-  width: 100%;
-  margin: 10px 0px;
-  padding: 12px 8px;
-  border-radius: 5px;
-  font-family: 'Open Sans', sans-serif;
-  color: grey;
-  font-size: 1rem;
-}
-
-footer button {
-  background-color: #F7CA18;
-  color: white;
-  font-weight: bold;
-}
-
-footer textarea {
-  min-height: 160px;
 }
