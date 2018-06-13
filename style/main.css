@@ -4,10 +4,13 @@
   box-sizing: border-box;
   border: 1px solid black;
 }
+/* Reset- You need this every time ... border starts out 1px solid black; then you get rid of it  */
 
 section {
   padding: 5%;
 }
+
+/* Typography section where all of our font stuff is. */
 
 h1, h2 {
   font-weight: bold;
@@ -34,6 +37,8 @@ span {
   color: gold;
 }
 
+/* Span changes one color or style in a line or paragraph */
+
 .no-padding {
   padding: 0%;
 }
@@ -41,6 +46,14 @@ span {
 .padded-5 {
   padding: 5%
 }
+
+.text-align-right {
+  text-align: right;
+}
+
+/* "helper classes" used to do little things over and over again.  mostly for padding, margin and text align */
+
+/* Styles for the header */
 
 header {
   background-image: url("../images/leaves.jpg");
@@ -50,14 +63,50 @@ header {
   text-align: center;
 }
 
+/* four square section */
 .dog-bg {
   background-image: url("../images/dog.jpg");
   background-size: cover;
   background-position: 50% 32.8%;
+  /* use inspect to play around with the percents  */
 }
 
 .bedside-bg {
   background-image: url("../images/bed.jpg");
   background-size: cover;
-  background-position: 25%, 0%;
+  background-position: 25% 0%;
+}
+
+/* styles for the pencil section */
+
+.pencils-on-yellow {
+  background-image: url("../images/pencil.jpg");
+  background-size: cover;
+  background-position: 25% 25%;
+  padding: 10%;
+  text-align: center;
+
+}
+
+.pencils-on-yellow span{
+  color: white;
+}
+
+.quotes {
+  padding: 10%;
+}
+
+.quotation-marks {
+  color: grey;
+  font-size: 2.5rem;
+}
+
+.one-happy-customer {
+  color: grey;
+  padding: 2.5%
+}
+
+.customer-testimonal {
+  font-size: 1.3rem;
+  padding: 2%;
 }
