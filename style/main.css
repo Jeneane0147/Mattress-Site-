@@ -18,6 +18,10 @@ p {
   line-height: 1.4;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 h3 {
   font-size: 1.15rem;
 }
@@ -28,4 +32,12 @@ h2 {
 
 span {
   color: gold;
+}
+
+header {
+  background-image: url("../images/leaves.jpg");
+  background-size: cover;
+  min-height:100vh;
+  color: white;
+  text-align: center;
 }
