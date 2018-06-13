@@ -34,10 +34,30 @@ span {
   color: gold;
 }
 
+.no-padding {
+  padding: 0%;
+}
+
+.padded-5 {
+  padding: 5%
+}
+
 header {
   background-image: url("../images/leaves.jpg");
   background-size: cover;
   min-height:100vh;
   color: white;
   text-align: center;
+}
+
+.dog-bg {
+  background-image: url("../images/dog.jpg");
+  background-size: cover;
+  background-position: 50% 32.8%;
+}
+
+.bedside-bg {
+  background-image: url("../images/bed.jpg");
+  background-size: cover;
+  background-position: 25%, 0%;
 }
