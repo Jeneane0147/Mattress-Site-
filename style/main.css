@@ -2,9 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid black;
+  /* border: 1px solid white; */
 }
 /* Reset- You need this every time ... border starts out 1px solid black; then you get rid of it  */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
 section {
   padding: 5%;
@@ -14,6 +18,7 @@ section {
 
 h1, h2 {
   font-weight: bold;
+  font-family: 'Archivo Black', sans-serif;
 }
 
 p {
@@ -109,4 +114,10 @@ header {
 .customer-testimonal {
   font-size: 1.3rem;
   padding: 2%;
+}
+
+footer {
+  background-color: #192b37;
+color: white;
+padding: 5%;
 }
